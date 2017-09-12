@@ -1,23 +1,23 @@
 # controlmslack
-Send notifications from BMC Control-M to Slack
+Send notifications from BMC Control-M to Slack via Shout
 
 ## Getting Started
 
 You will need access to your Control-M/Server to be able to copy files over to the OS.  You'll also need access to modify the Shout Destination table.
 
-Copy the appropriate files out of \windows or \linux into the directory of your choice to your Control-M/Server.
+Copy the appropriate files for \windows or \linux into the directory of your choice to your Control-M/Server.  Setup a shout destination referencing the program.
 
 
 ## Motivation
 
-Slack is where everyone hangsout nowadays.  So let's make it easier to get information from our critical production systems into it!
+Slack is where everyone hangs out nowadays.  So let's make it easier to get information from our critical production systems into it!
 
 ## Installation
 
 ###Windows
-Blah
+Make sure curl is installed. Copy the bat file to a scripts directory on your Control-M/Server.
 ###Linux
-Blah
+Make sure curl is installed. Copy the bash script to a scripts directory on your Control-M/Server.
 
 ## Authors
 
@@ -29,7 +29,5 @@ See also the list of [contributors](https://github.com/robertstinnett/controlmsl
 
 If you want to enhance or make this better, feel free to pull it down and contribute freely!  You can always find this project at https://github.com/robertstinnett/controlmslack
 
-## License
 
-Released under the GNU Public License v3.0
 
