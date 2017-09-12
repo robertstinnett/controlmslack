@@ -6,7 +6,7 @@ REM * Requires curl
 
 
 set str=%2
-set hookurl=https://hooks.slack.com/services/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
+set hookurl=YOUR SLACK HOOK URL HERE
 set loglocation=C:\scripts\slack.log
 
 for /f "useback tokens=1,2 delims=," %%a in ('%str%') do ( 
