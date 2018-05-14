@@ -14,10 +14,10 @@ Slack is where everyone hangs out nowadays.  So let's make it easier to get info
 
 ## Installation
 
-###Windows
+### Windows
 Make sure curl is installed. Copy the bat file to a scripts directory on your Control-M/Server.
-###Linux
-Make sure curl is installed. Copy the bash script to a scripts directory on your Control-M/Server.
+### Linux
+Make sure curl is installed. Copy the bash script to a scripts directory on your Control-M/Server.  Ensure that the script is executable by the Control-M server user or its group.
 
 ## Authors
 
