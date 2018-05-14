@@ -7,12 +7,14 @@ REM * Requires curl
 set str=%2
 set hookurl=YOUR SLACK HOOK URL HERE
 set loglocation=C:\scripts\slack.log
+set /A "link_names=1"
 
-for /f "useback tokens=1,2,3 delims=," %%a in ('%str%') do ( 
+for /f "useback tokens=1,2* delims=," %%a in ('%str%') do ( 
 set channel=%%a
 set message=%%b
-set link_names=%%c
- )
+if defined %%c set link_names=%%c
+)
+
 set channel=%channel:"=%
 set message=%message:"=%
 set link_names=%link_names:"=%
