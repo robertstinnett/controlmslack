@@ -7,6 +7,9 @@ You will need access to your Control-M/Server to be able to copy files over to t
 
 Copy the appropriate files for \windows or \linux into the directory of your choice to your Control-M/Server.  Setup a shout destination referencing the program.
 
+## Usage
+For Control-M, when sending the shout message you would do so like this.  Note you can send through AUTOEDITS in the shout field.
+![Screenshot](images/shout-slack.png)
 
 ## Motivation
 
