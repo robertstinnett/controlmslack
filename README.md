@@ -9,6 +9,7 @@ Copy the appropriate files for \windows or \linux into the directory of your cho
 
 ## Usage
 For Control-M, when sending the shout message you would do so like this.  Note you can send through AUTOEDITS in the shout field.
+
 ![Screenshot](images/shout-slack.png)
 
 ## Motivation
